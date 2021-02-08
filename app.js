@@ -14,7 +14,7 @@ let pPause = document.querySelector('#play-pause');
 
 let songIndex = 0;
 let songList = ["assets/songs/GetLucky.mp3", "assets/songs/joji.mp3", "assets/songs/Diwk.mp3", "assets/songs/chlorine.mp3"];
-let songBKG = ["assets/background/ramBKG.jpg", "assets/background/jojiBKG.png", "assets/background/diwkBKG.jpg", "assets/background/chlorineBKG.jpg"];
+let songBKG = ["assets/background/ramBKG.jpg", "assets/background/jojiBKG.png", "assets/background/diwkBKG.jpg", "assets/background/chlorineBKG.gif"];
 let songTN = ["assets/thumbnails/ramTN.jpg", "assets/thumbnails/jojiTN.jpg", "assets/thumbnails/diwkTN.jpg", "assets/thumbnails/chlorineTN.jpg"];
 let songArtist = ["Daft Punk", "Joji", "Arctic Monkey", "Twenty One Pilots"];
 let songTitle = ["Get Lucky", "Dancing In The Dark", "Do I Wanna Know", "Chlorine"];
