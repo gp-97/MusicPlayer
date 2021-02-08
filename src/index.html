@@ -1,0 +1,37 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../icons/favicon.svg" type="image/x-icon">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body id="main">
+    <img id="background" src="../assets/background/ramBKG.jpg" alt="">
+    <audio id="song" src="../assets/songs/GetLucky.mp3"></audio>
+
+    <div class="container">
+        <div class="box"></div>
+
+        <img id="thumbnail" src="../assets/thumbnails/ramTN.jpg">
+        <img id="play-pause" src="../icons/svg/014-play.svg" onclick="playSong()">
+        <img id="next-song" src="../icons/svg/012-next.svg" onclick="nextSong()">
+        <img id="previous-song" src="../icons/svg/012-next.svg" onclick="previousSong()">
+
+        <div class="song-artist">Daft Punk</div>
+        <div class="song-title">Get Lucky</div>
+
+        <input type="range" id="progress-bar" min="0" max="" value="0" onchange="changeProgressBar()">
+
+        <div class="currentTime"></div>
+        <div class="durationTime"></div>
+
+
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
